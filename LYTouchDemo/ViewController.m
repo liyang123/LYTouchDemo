@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LYTouch.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)btn1 {
+    [[LYTouch sharedInstance] isSupportTouch:^(BOOL success, NSString *failMessage) {
+        if (success) {
+            NSLog(@"成功");
+        }else{
+            NSLog(@"%@", failMessage);
+        }
+    }];
 }
 
 @end

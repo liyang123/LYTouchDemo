@@ -15,6 +15,7 @@
 		B6343EB51C9AAEA600364005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6343EB31C9AAEA600364005 /* LaunchScreen.storyboard */; };
 		B6343EC01C9AAEA600364005 /* LYTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6343EBF1C9AAEA600364005 /* LYTouchDemoTests.m */; };
 		B6343ECB1C9AAEA600364005 /* LYTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6343ECA1C9AAEA600364005 /* LYTouchDemoUITests.m */; };
+		B6343EDA1C9AAF4600364005 /* LYTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = B6343ED91C9AAF4600364005 /* LYTouch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6343EC61C9AAEA600364005 /* LYTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6343ECA1C9AAEA600364005 /* LYTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTouchDemoUITests.m; sourceTree = "<group>"; };
 		B6343ECC1C9AAEA600364005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6343ED81C9AAF4600364005 /* LYTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTouch.h; sourceTree = "<group>"; };
+		B6343ED91C9AAF4600364005 /* LYTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTouch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B6343EA91C9AAEA600364005 /* AppDelegate.m */,
 				B6343EAB1C9AAEA600364005 /* ViewController.h */,
 				B6343EAC1C9AAEA600364005 /* ViewController.m */,
+				B6343ED81C9AAF4600364005 /* LYTouch.h */,
+				B6343ED91C9AAF4600364005 /* LYTouch.m */,
 				B6343EAE1C9AAEA600364005 /* Main.storyboard */,
 				B6343EB11C9AAEA600364005 /* Assets.xcassets */,
 				B6343EB31C9AAEA600364005 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6343EDA1C9AAF4600364005 /* LYTouch.m in Sources */,
 				B6343EAD1C9AAEA600364005 /* ViewController.m in Sources */,
 				B6343EAA1C9AAEA600364005 /* AppDelegate.m in Sources */,
 				B6343EA71C9AAEA600364005 /* main.m in Sources */,
